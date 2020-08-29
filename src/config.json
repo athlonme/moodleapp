@@ -2,8 +2,8 @@
     "app_id": "com.gclass.gclassmobile",
     "appname": "Gclass Mobile",
     "desktopappname": "Gclass Desktop",
-    "versioncode": 3930,
-    "versionname": "3.9.3-dev",
+    "versioncode": 3920,
+    "versionname": "3.9.2",
     "cache_update_frequency_usually": 420000,
     "cache_update_frequency_often": 1200000,
     "cache_update_frequency_sometimes": 3600000,
@@ -14,18 +14,18 @@
         "en": "English",
         "fa": "فارسی"
     },
-    "wsservice": "gclass_mobile_app",
+    "wsservice": "moodle_mobile_app",
     "wsextservice": "local_mobile",
     "demo_sites": {
         "student": {
-            "url": "https:\/\/school.gclassdemo.net",
+            "url": "https:\/\/school.moodledemo.net",
             "username": "student",
-            "password": "gclass"
+            "password": "moodle"
         },
         "teacher": {
-            "url": "https:\/\/school.gclassdemo.net",
+            "url": "https:\/\/school.moodledemo.net",
             "username": "teacher",
-            "password": "gclass"
+            "password": "moodle"
         }
     },
     "font_sizes": [
@@ -33,14 +33,14 @@
         75.89,
         93.75
     ],
-    "customurlscheme": "gclassmobile",
+    "customurlscheme": "moodlemobile",
     "siteurl": "",
     "sitename": "",
     "multisitesdisplay": "",
     "onlyallowlistedsites": false,
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
-    "privacypolicy": "https:\/\/gclass.net\/gclass-app-privacy\/",
+    "privacypolicy": "https:\/\/moodle.net\/moodle-app-privacy\/",
     "notificoncolor": "#009900",
     "statusbarbg": false,
     "statusbarlighttext": false,
@@ -53,12 +53,12 @@
     "enableanalytics": false,
     "enableonboarding": true,
     "forceColorScheme": "",
-    "ioswebviewscheme": "gclassappfs",
+    "ioswebviewscheme": "moodleappfs",
     "appstores": {
         "android": "com.gclass.gclassmobile",
         "ios": "id633359593",
-        "windows": "gclass-desktop\/9p9bwvhdc8c8",
+        "windows": "moodle-desktop\/9p9bwvhdc8c8",
         "mac": "id1255924440",
-        "linux": "https:\/\/download.gclass.org\/desktop\/download.php?platform=linux&arch=64"
+        "linux": "https:\/\/download.moodle.org\/desktop\/download.php?platform=linux&arch=64"
     }
 }
