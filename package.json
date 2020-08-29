@@ -1,10 +1,10 @@
 {
-  "name": "moodlemobile",
+  "name": "gclassmobile",
   "version": "3.9.3",
-  "description": "The official app for Moodle.",
+  "description": "The official app for Gclass.",
   "author": {
-    "name": "Moodle Pty Ltd.",
-    "email": "mobile@moodle.com"
+    "name": "Gclass Pty Ltd.",
+    "email": "mobile@greenclass.ir"
   },
   "config": {
     "ionic_webpack": "./config/webpack.config.js",
@@ -179,7 +179,7 @@
       "cordova-plugin-badge": {},
       "cordova-plugin-camera": {},
       "cordova-plugin-customurlscheme": {
-        "URL_SCHEME": "moodlemobile"
+        "URL_SCHEME": "gclassmobile"
       },
       "cordova-plugin-device": {},
       "cordova-plugin-file": {},
@@ -218,8 +218,8 @@
   },
   "main": "desktop/electron.js",
   "build": {
-    "appId": "com.moodle.moodledesktop",
-    "productName": "Moodle Desktop",
+    "appId": "com.gclass.gclassdesktop",
+    "productName": "Gclass Desktop",
     "files": [
       "desktop/electron.js",
       "www/**/*",
@@ -242,7 +242,7 @@
       {
         "name": "Moodle Mobile URL",
         "schemes": [
-          "moodlemobile"
+          "gclassmobile"
         ],
         "role": "Viewer"
       }
